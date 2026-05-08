@@ -1,4 +1,7 @@
 # tomodachi
+
+![zine poster of the panda project](/photos/zine_sized.jpg)
+
 Tomodachi is a project to give you a heavily dependent and lazy panda to take care of
 
 What the panda can do:
