@@ -31,6 +31,7 @@ Wires | |
 # design
 ## PCB Schematic
 ![PCB schematic](/photos/schematic.png)
+^note that the part labeled E1 is because Kicad was mad I have the SS12F44 switch connected by wires instead of traces, please ignore
 ## PCB Footprint
 ![PCB footprint](/photos/pcb.png)
 ## Case
