@@ -2,7 +2,7 @@
 
 ![zine poster of the panda project](/photos/zine_sized.jpg)
 
-Tomodachi is a project to give you a heavily dependent and lazy panda to take care of
+Tomodachi is a project to give you a heavily dependent and lazy panda to take care of, made because I need hardware and CAD design experience plus coding in firmware and also making panda themed gadgets is one of the coolest activities of all time
 
 What the panda can do:
 * Eat the food you give them (until they don't feel like it)
@@ -10,6 +10,7 @@ What the panda can do:
 * Perish
 
 Features hand-drawn animations (more animations will come out once project is approed since I need the RTC to test more)
+
 
 # materials
 
