@@ -1,2 +1,9 @@
 # tomodachi
-little panda guy
+DESCRIPTION
+
+# design
+## PCB Schematic
+
+## PCB Footprint
+
+## Case
