@@ -42,12 +42,18 @@ Wires | |
 steps:
 1. 3d print the case, case cover and panda ears
    - PLA is going to be used in this project but recommended to use a more stronger & less brittle filament for snap fits
-2. Solder the components to the PCB
+2. Flash the firmware by using Arduino IDE:
+   1. Download the firmware folder and place the firmware folder inside a dedicated folder
+   2. Unzip the libraries.zip and place "libraries" folder in the dedicated folder (named exactly that)
+   3. Go to Arduino IDE File > Preferences and set the library folder to libraries
+   4. Connect the XIAO ESP32C3 DIP to the computer with a USB-C cable, select the port that pops up and set the board as a "XIAO_ESP32C3"
+   5. Go to "tomodachi_sketch.ino" and compile and upload
+3. Solder the components to the PCB
    - Use header pins to connect the throughholes on both the pcb and components for easier soldering (though tinning the holes will work too)
    - Make sure to insert the coin battery into the RTC after soldering (heat damage might hurt the battery)
-3. Solder a wire from the bottom left corner pad marked "CONNECT TO SWITCH" (<ins>not</ins> the throughholes connected to the D2 schottky diode) to one end of the SS12F44 switch's three pins, and then solder a wire from the Out+ of the TP4056 component (also marked with "CONNECT TO SWITCH") to the middle pin on the SS12F44 switch's three pins
+4. Solder a wire from the bottom left corner pad marked "CONNECT TO SWITCH" (<ins>not</ins> the throughholes connected to the D2 schottky diode) to one end of the SS12F44 switch's three pins, and then solder a wire from the Out+ of the TP4056 component (also marked with "CONNECT TO SWITCH") to the middle pin on the SS12F44 switch's three pins
    - The SS12F44 connects the middle pin with one or the other of the three pins depending on where it is switched
    - Use a short length wire when soldering the two places, and wrap each connection in electrical tape to ensure no short circuits happen
    - For both of the mentioned throughholes on the PCB probably don't use header pins as it will be easier to solder a wire without them
-4. Place the battery in the case first, then solder the wire from the battery's + end to the TP4056's 5V hole, and the battery's - end to the TP4056's GND hole (both located on the edge of the PCB)
-5. Assemble case with cover and ears
+5. Place the battery in the case first, then solder the wire from the battery's + end to the TP4056's 5V hole, and the battery's - end to the TP4056's GND hole (both located on the edge of the PCB)
+6. Assemble case with cover and ears
