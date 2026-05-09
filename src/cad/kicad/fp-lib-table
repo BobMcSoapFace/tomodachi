@@ -1,5 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "Seeed Fusion Component Libraries for KiCad") (type "KiCad") (uri "C:/Users/riley/Projects/tomodachi/OPL_Kicad_Library/Seeed Fusion Component Libraries for KiCad.pretty") (options "") (descr ""))
-	(lib (name "tomodachi") (type "KiCad") (uri "${KIPRJMOD}/tomodachi.pretty") (options "") (descr ""))
-)
